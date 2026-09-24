@@ -13,12 +13,8 @@ Een complete, lokale WordPress-startsite voor **Pro Athletics Kickboxing**. De s
 
    Gebruik je een andere Wamp-installatiemap, vervang dan alleen `C:\wamp64\www` door jouw eigen `www`-map.
 
-3. Download de nieuwste Nederlandse of Engelse WordPress-versie uitsluitend via [wordpress.org/download](https://wordpress.org/download/), pak het archief uit en kopieer de **inhoud** van de uitgepakte `wordpress`-map naar `C:\wamp64\www\kickie`.
-
-   Laat de bestaande map `wp-content` uit deze repository staan; die bevat het thema. Als Windows om vervanging vraagt, kies je bij die map voor **niet vervangen**.
-
-4. Maak via phpMyAdmin (`http://localhost/phpmyadmin`) een database aan met de naam `kickie` en de tekenset `utf8mb4`.
-5. Open [http://localhost/kickie](http://localhost/kickie) en volg de WordPress-installatie. WampServer gebruikt vaak deze standaardgegevens:
+3. Maak via phpMyAdmin (`http://localhost/phpmyadmin`) een database aan met de naam `kickie` en de tekenset `utf8mb4`.
+4. Open [http://localhost/kickie](http://localhost/kickie) en volg de WordPress-installatie. WampServer gebruikt vaak deze standaardgegevens:
 
    ```text
    Databasenaam: kickie
@@ -28,7 +24,7 @@ Een complete, lokale WordPress-startsite voor **Pro Athletics Kickboxing**. De s
    Tabelvoorvoegsel: wp_
    ```
 
-6. Log na de installatie eenmaal in op `http://localhost/kickie/wp-admin`. Het thema **Pro Athletics** wordt automatisch actief.
+5. Log na de installatie eenmaal in op `http://localhost/kickie/wp-admin`. Het thema **Pro Athletics** wordt automatisch actief.
 
 Daarna kun je de tekst, lessen en contactgegevens aanpassen via **Weergave → Thema-editor**, of eigen pagina's toevoegen via WordPress.
 
@@ -46,4 +42,4 @@ wp-content/
   themes/pro-athletics/
 ```
 
-WordPress zelf wordt bewust niet in de repository opgenomen: download de schone, officiële WordPress-kern via wordpress.org. Daardoor blijven updates veilig en de repository klein.
+De repository bevat de officiële WordPress-kern en het Pro Athletics-thema. Na het clonen hoef je dus niets extra's te downloaden.

@@ -1,6 +1,6 @@
 /*
 Theme Name: Pro Athletics Kickboxing
-Theme URI: http://localhost:8080
+Theme URI: http://localhost/kickie
 Author: Pro Athletics
 Description: Een energieke, lokale startsite voor Pro Athletics Kickboxing.
 Version: 1.0.0
@@ -69,4 +69,3 @@ h2 { max-width:740px; margin:12px 0 40px; font-size:clamp(2.8rem,6vw,5.8rem); fo
 .contact-links a { border-bottom:2px solid var(--ink); padding:0 0 11px; }
 .site-footer { display:flex; justify-content:space-between; gap:25px; padding:25px 32px; background:var(--ink); color:#fff; font-size:.75rem; font-weight:700; text-transform:uppercase; }
 @media (max-width:760px) { .site-header { padding:20px; } .nav { display:none; } .hero { min-height:680px; } .hero-inner,.intro,.schedule,.contact-grid { grid-template-columns:1fr; gap:28px; } .hero-inner { padding:130px 22px 55px; } .hero-card { justify-self:start; } .section { padding:75px 22px; } .values,.program-grid { grid-template-columns:1fr; } .time { grid-template-columns:80px 1fr; } .time small { grid-column:2; } .site-footer { padding:22px; flex-direction:column; } }
-
